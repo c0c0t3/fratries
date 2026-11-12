@@ -27,6 +27,12 @@ const BATIMENT_CLASSES = {
   Filles: "filles",
 };
 
+// Cartes "terminées" actuellement dépliées par l'utilisateur — à préserver
+// d'un rendu à l'autre, sinon une mise à jour temps réel sur N'IMPORTE
+// QUELLE fratrie referme toutes les cartes ouvertes (tout #contenu est
+// régénéré à chaque notification du store).
+const idsDeplies = new Set();
+
 const TOURNEES = [
   { id: 1, titre: "T1 · Maternelle", batiment: "Maternelle" },
   { id: 2, titre: "T2 · Filles", batiment: "Filles" },
@@ -121,6 +127,19 @@ export function afficherApp({ data, integrite, utilisateur, onChangerUtilisateur
 
   contenu.addEventListener("click", (ev) => gererClicAction(ev, utilisateur, dialogueMenu, data));
 
+  // "toggle" ne bubble pas, mais une écoute en phase de capture le reçoit
+  // quand même sur n'importe quel <details> descendant.
+  contenu.addEventListener(
+    "toggle",
+    (ev) => {
+      const details = ev.target.closest("details.carte-fratrie");
+      if (!details) return;
+      if (details.open) idsDeplies.add(details.dataset.id);
+      else idsDeplies.delete(details.dataset.id);
+    },
+    true
+  );
+
   function passeLeFiltre(etat) {
     if (filtreActif === "mes") return etat.par === utilisateur;
     if (filtreActif === "restantes") return etat.statut !== "photographie" && etat.statut !== "absent";
@@ -178,17 +197,21 @@ function rendreOngletTournee(data, numTournee, passeLeFiltre) {
     .map((bloc) => {
       const classe = data.classes[bloc.classeDepart] || {};
       const batCls = BATIMENT_CLASSES[classe.batiment] || "";
-      const corpsBloc = bloc.sousBlocs
-        .map((sb) => {
-          const cartes = sb.fratries
-            .map((f) => carteFratrieHTML(f, passeLeFiltre))
-            .filter(Boolean)
-            .join("");
-          if (!cartes) return "";
+
+      // Les fratries terminées (photographiées/absentes) sont reléguées,
+      // repliées, en bas du bloc plutôt que de rester mélangées aux en cours.
+      const enCoursHTML = [];
+      const termineesFratries = [];
+      bloc.sousBlocs.forEach((sb) => {
+        const actives = sb.fratries.filter((f) => passeLeFiltre(etatFratrie(f.id)) && !estTerminee(etatFratrie(f.id)));
+        const finies = sb.fratries.filter((f) => passeLeFiltre(etatFratrie(f.id)) && estTerminee(etatFratrie(f.id)));
+        if (actives.length) {
           const bandeauArret = sb.arretsSuivants ? `<div class="bandeau-arret">${echapper(sb.arretsSuivants)}</div>` : "";
-          return bandeauArret + cartes;
-        })
-        .join("");
+          enCoursHTML.push(bandeauArret + actives.map((f) => carteFratrieHTML(f)).join(""));
+        }
+        termineesFratries.push(...finies);
+      });
+      const corpsBloc = enCoursHTML.join("") + termineesFratries.map((f) => carteFratrieHTML(f)).join("");
       if (!corpsBloc) return "";
       return `
         <section class="bloc">
@@ -204,11 +227,13 @@ function rendreOngletTournee(data, numTournee, passeLeFiltre) {
   return `<div class="bandeau-priorite">${priorite}</div>${html || '<p class="vide">Aucune fratrie avec ce filtre.</p>'}`;
 }
 
-function carteFratrieHTML(f, passeLeFiltre) {
-  const etat = etatFratrie(f.id);
-  if (!passeLeFiltre(etat)) return "";
+function estTerminee(etat) {
+  return etat.statut === "photographie" || etat.statut === "absent";
+}
 
-  const terminee = etat.statut === "photographie" || etat.statut === "absent";
+function carteFratrieHTML(f) {
+  const etat = etatFratrie(f.id);
+  const terminee = estTerminee(etat);
   const badgePar = etat.par ? ` · ${echapper(etat.par)}` : "";
 
   const enfantsHTML = f.enfants
@@ -246,8 +271,9 @@ function carteFratrieHTML(f, passeLeFiltre) {
   `;
 
   if (terminee) {
+    const ouverte = idsDeplies.has(f.id) ? " open" : "";
     return `
-      <details class="carte-fratrie carte-repliee badge--${etat.statut}" data-id="${f.id}">
+      <details class="carte-fratrie carte-repliee badge--${etat.statut}" data-id="${f.id}"${ouverte}>
         <summary>${echapper(f.famille)} — ${STATUT_LABELS[etat.statut]}${badgePar}</summary>
         ${corps}
       </details>

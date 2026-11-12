@@ -1,11 +1,9 @@
-// Config Web Firebase — pas secrète en soi (voir CLAUDE.md), mais à remplacer
-// par les valeurs de ton propre projet (console.firebase.google.com > Paramètres
-// du projet > tes applications > Web app).
+// Config Web Firebase — pas secrète en soi (voir CLAUDE.md), projet fratries-photo-fotoline-5c657.
 export const firebaseConfig = {
-  apiKey: "REMPLACER_MOI",
-  authDomain: "REMPLACER_MOI.firebaseapp.com",
-  projectId: "REMPLACER_MOI",
-  storageBucket: "REMPLACER_MOI.appspot.com",
-  messagingSenderId: "REMPLACER_MOI",
-  appId: "REMPLACER_MOI",
+  apiKey: "AIzaSyDsPH6avhNJjz8YtFsC4Y8-lKoPx_e6hbc",
+  authDomain: "fratries-photo-fotoline-5c657.firebaseapp.com",
+  projectId: "fratries-photo-fotoline-5c657",
+  storageBucket: "fratries-photo-fotoline-5c657.firebasestorage.app",
+  messagingSenderId: "1090151508083",
+  appId: "1:1090151508083:web:0ea00de5876824a71fe206",
 };
