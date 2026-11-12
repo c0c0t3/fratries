@@ -1,0 +1,18 @@
+rules_version = '2';
+
+// Pas d'Authentication pour cet événement (décision assumée : URL Netlify
+// privée/non indexée, données supprimées après l'événement via scripts/purge.mjs).
+// On se protège uniquement par la validation du schéma écrit.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    match /fratries/{id} {
+      allow read: if true;
+
+      allow write: if
+        request.resource.data.keys().hasOnly(['statut', 'par', 'maj', 'note']) &&
+        request.resource.data.statut in ['a_chercher', 'en_route', 'au_studio', 'photographie', 'absent'] &&
+        (!('par' in request.resource.data) || request.resource.data.par == null || request.resource.data.par in ['Alain', 'Tom']) &&
+        (!('note' in request.resource.data) || request.resource.data.note is string);
+    }
+  }
+}

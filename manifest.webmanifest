@@ -1,0 +1,15 @@
+{
+  "name": "Fratries Photo",
+  "short_name": "Fratries",
+  "description": "Suivi en temps réel de la prise en charge des fratries — jour des photos",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#1565c0",
+  "lang": "fr",
+  "icons": [
+    { "src": "./icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

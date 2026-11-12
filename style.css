@@ -1,0 +1,356 @@
+:root {
+  --fond: #ffffff;
+  --fond-carte: #f7f7f8;
+  --texte: #1a1a1a;
+  --texte-att: #555555;
+  --bordure: #d8d8dc;
+  --accent: #1565c0;
+
+  --maternelle-bg: #e8f5e9;
+  --maternelle-fg: #1b5e20;
+  --foch-bg: #e3f2fd;
+  --foch-fg: #0d47a1;
+  --vosges-bg: #fdecea;
+  --vosges-fg: #b71c1c;
+  --filles-bg: #f3e5f5;
+  --filles-fg: #4a148c;
+
+  --statut-a_chercher-bg: #eceff1;
+  --statut-a_chercher-fg: #37474f;
+  --statut-en_route-bg: #fff3cd;
+  --statut-en_route-fg: #8a6500;
+  --statut-au_studio-bg: #cfe8ff;
+  --statut-au_studio-fg: #0b4a8f;
+  --statut-photographie-bg: #d7f0d8;
+  --statut-photographie-fg: #276a2b;
+  --statut-absent-bg: #e0e0e0;
+  --statut-absent-fg: #616161;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --fond: #121212;
+    --fond-carte: #1e1e1e;
+    --texte: #f0f0f0;
+    --texte-att: #b0b0b0;
+    --bordure: #3a3a3a;
+
+    --maternelle-bg: #1b3a1e;
+    --maternelle-fg: #a5d6a7;
+    --foch-bg: #122b47;
+    --foch-fg: #90caf9;
+    --vosges-bg: #4a1414;
+    --vosges-fg: #ef9a9a;
+    --filles-bg: #35183d;
+    --filles-fg: #ce93d8;
+
+    --statut-a_chercher-bg: #2b2f31;
+    --statut-a_chercher-fg: #cfd8dc;
+    --statut-en_route-bg: #4a3c00;
+    --statut-en_route-fg: #ffe082;
+    --statut-au_studio-bg: #103a5c;
+    --statut-au_studio-fg: #90caf9;
+    --statut-photographie-bg: #1c3d1e;
+    --statut-photographie-fg: #a5d6a7;
+    --statut-absent-bg: #3a3a3a;
+    --statut-absent-fg: #bdbdbd;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--fond);
+  color: var(--texte);
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  -webkit-text-size-adjust: 100%;
+}
+
+button, input, textarea, select {
+  font-family: inherit;
+  font-size: 16px;
+}
+
+#app { min-height: 100vh; display: flex; flex-direction: column; }
+
+/* Écran de choix utilisateur */
+.ecran-choix {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+  text-align: center;
+  gap: 16px;
+}
+.choix-utilisateur { display: flex; gap: 16px; }
+.btn-choix {
+  min-width: 120px;
+  min-height: 64px;
+  font-size: 20px;
+  font-weight: 700;
+  border: 2px solid var(--accent);
+  border-radius: 12px;
+  background: var(--fond);
+  color: var(--accent);
+}
+
+/* En-tête */
+.entete {
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  background: var(--fond);
+  border-bottom: 1px solid var(--bordure);
+}
+.entete-haut {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 12px;
+}
+.entete-haut strong { font-size: 18px; flex: 1; }
+.connexion { font-size: 14px; white-space: nowrap; }
+.connexion.hors-ligne { color: #c62828; }
+.connexion.sync { color: #a66a00; }
+.connexion.en-ligne { color: #2e7d32; }
+.btn-utilisateur {
+  min-height: 40px;
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--bordure);
+  background: var(--fond-carte);
+  color: var(--texte);
+}
+
+.onglets, .filtres {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  padding: 6px 10px;
+}
+.onglet, .filtre {
+  min-height: 44px;
+  padding: 8px 14px;
+  border-radius: 10px;
+  border: 1px solid var(--bordure);
+  background: var(--fond-carte);
+  color: var(--texte);
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.onglet.actif, .filtre.actif {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  font-weight: 700;
+}
+
+main { padding: 10px 12px 80px; flex: 1; }
+
+.bandeau-priorite {
+  font-weight: 800;
+  font-size: 15px;
+  letter-spacing: 0.04em;
+  padding: 10px 12px;
+  margin: 8px 0;
+  border-radius: 8px;
+  background: var(--accent);
+  color: #fff;
+}
+
+.bloc { margin-bottom: 22px; }
+
+.bandeau-classe {
+  font-weight: 700;
+  padding: 10px 12px;
+  border-radius: 8px;
+  margin: 10px 0 6px;
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+}
+.bandeau-classe.bandeau--maternelle { background: var(--maternelle-bg); color: var(--maternelle-fg); }
+.bandeau-classe.bandeau--foch { background: var(--foch-bg); color: var(--foch-fg); }
+.bandeau-classe.bandeau--vosges { background: var(--vosges-bg); color: var(--vosges-fg); }
+.bandeau-classe.bandeau--filles { background: var(--filles-bg); color: var(--filles-fg); }
+
+.bandeau-arret {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--texte-att);
+  padding: 4px 6px 8px;
+}
+
+.carte-fratrie {
+  background: var(--fond-carte);
+  border: 1px solid var(--bordure);
+  border-left: 6px solid var(--bordure);
+  border-radius: 10px;
+  padding: 12px;
+  margin-bottom: 10px;
+}
+.carte-fratrie.badge--a_chercher { border-left-color: var(--statut-a_chercher-fg); }
+.carte-fratrie.badge--en_route { border-left-color: var(--statut-en_route-fg); }
+.carte-fratrie.badge--au_studio { border-left-color: var(--statut-au_studio-fg); }
+.carte-fratrie.badge--photographie { border-left-color: var(--statut-photographie-fg); opacity: 0.75; }
+.carte-fratrie.badge--absent { border-left-color: var(--statut-absent-fg); opacity: 0.6; }
+
+.carte-fratrie header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+.carte-fratrie h3 { margin: 0; font-size: 19px; }
+
+.badge-statut {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 4px 10px;
+  border-radius: 20px;
+  white-space: nowrap;
+}
+.badge-statut.badge--a_chercher { background: var(--statut-a_chercher-bg); color: var(--statut-a_chercher-fg); }
+.badge-statut.badge--en_route { background: var(--statut-en_route-bg); color: var(--statut-en_route-fg); }
+.badge-statut.badge--au_studio { background: var(--statut-au_studio-bg); color: var(--statut-au_studio-fg); }
+.badge-statut.badge--photographie { background: var(--statut-photographie-bg); color: var(--statut-photographie-fg); }
+.badge-statut.badge--absent { background: var(--statut-absent-bg); color: var(--statut-absent-fg); }
+
+.liste-enfants { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
+.liste-enfants li { display: flex; align-items: center; gap: 6px; flex-wrap: wrap; font-size: 15px; }
+.ordre { font-weight: 800; }
+.prenom { font-weight: 700; }
+.niveau { color: var(--texte-att); }
+
+.chip {
+  font-size: 13px;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: var(--fond);
+  border: 1px solid var(--bordure);
+}
+.chip--maternelle { background: var(--maternelle-bg); color: var(--maternelle-fg); border-color: transparent; }
+.chip--foch { background: var(--foch-bg); color: var(--foch-fg); border-color: transparent; }
+.chip--vosges { background: var(--vosges-bg); color: var(--vosges-fg); border-color: transparent; }
+.chip--filles { background: var(--filles-bg); color: var(--filles-fg); border-color: transparent; }
+
+.badge-verifier {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 6px;
+  background: #fff3cd;
+  color: #8a6500;
+}
+.remarque { font-size: 13px; color: var(--texte-att); font-style: italic; }
+
+.note {
+  margin: 8px 0 0;
+  font-size: 14px;
+  background: var(--fond);
+  border: 1px dashed var(--bordure);
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+.actions { display: flex; gap: 8px; margin-top: 10px; }
+.btn-action {
+  flex: 1;
+  min-height: 48px;
+  font-size: 17px;
+  font-weight: 700;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+}
+.btn-action--a_chercher { background: #455a64; }
+.btn-action--en_route { background: #1565c0; }
+.btn-action--au_studio { background: #2e7d32; }
+
+.btn-menu {
+  min-width: 48px;
+  min-height: 48px;
+  font-size: 20px;
+  border: 1px solid var(--bordure);
+  border-radius: 10px;
+  background: var(--fond);
+  color: var(--texte);
+}
+
+.carte-repliee summary {
+  cursor: pointer;
+  font-weight: 700;
+  list-style: none;
+}
+.carte-repliee summary::-webkit-details-marker { display: none; }
+.carte-repliee[open] summary { margin-bottom: 8px; }
+
+.vide { color: var(--texte-att); padding: 16px 4px; }
+
+.liste-sans-fratrie { list-style: none; margin: 0; padding: 0; }
+
+.table-controle {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 8px 0 20px;
+  font-size: 15px;
+}
+.table-controle th, .table-controle td {
+  text-align: left;
+  padding: 8px 6px;
+  border-bottom: 1px solid var(--bordure);
+}
+
+.alerte-ok { color: #276a2b; font-weight: 700; }
+.alerte-erreur { color: #b71c1c; font-weight: 700; }
+
+.erreur-fatale { padding: 24px; color: #b71c1c; font-weight: 700; }
+
+dialog#dialogue-menu {
+  border: none;
+  border-radius: 14px;
+  padding: 0;
+  width: min(92vw, 420px);
+  background: var(--fond);
+  color: var(--texte);
+}
+dialog#dialogue-menu::backdrop { background: rgba(0, 0, 0, 0.5); }
+.menu-contenu { display: flex; flex-direction: column; gap: 10px; padding: 16px; }
+.menu-contenu h3 { margin: 0 0 4px; }
+.btn-menu-item {
+  min-height: 48px;
+  border-radius: 10px;
+  border: 1px solid var(--bordure);
+  background: var(--fond-carte);
+  color: var(--texte);
+  font-size: 16px;
+  text-align: left;
+  padding: 0 14px;
+}
+.btn-menu-fermer { text-align: center; font-weight: 700; }
+.menu-note-label { display: flex; flex-direction: column; gap: 4px; font-size: 14px; }
+.menu-note { border-radius: 8px; border: 1px solid var(--bordure); background: var(--fond); color: var(--texte); padding: 8px; resize: vertical; }
+
+.toast {
+  position: fixed;
+  bottom: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #212121;
+  color: #fff;
+  padding: 10px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  z-index: 20;
+  max-width: 90vw;
+  text-align: center;
+}
+
+@media (max-width: 400px) {
+  .carte-fratrie h3 { font-size: 17px; }
+  .btn-action { font-size: 15px; }
+}

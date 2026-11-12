@@ -1,0 +1,15 @@
+{
+  "name": "fratries-photo",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "description": "App temps réel pour la prise en charge des fratries le jour des photos (Fotoline).",
+  "scripts": {
+    "seed": "node scripts/seed.mjs",
+    "reset": "node scripts/reset.mjs",
+    "purge": "node scripts/purge.mjs"
+  },
+  "devDependencies": {
+    "firebase": "^10.14.1"
+  }
+}
