@@ -1,2989 +1,2989 @@
 {
- "meta": {
-  "annee": "2026/27",
-  "studio": "Vosges",
-  "chemin": "Vosges > Foch > Maternelle > Filles"
- },
- "classes": {
-  "PS MS bil 1": {
-   "batiment": "Maternelle",
-   "etage": "RDC",
-   "enseignant": "Patrick / Clémence"
-  },
-  "PS MS bil 2": {
-   "batiment": "Maternelle",
-   "etage": "RDC",
-   "enseignant": "Clémence / Patrick"
-  },
-  "PS MS mono 1": {
-   "batiment": "Maternelle",
-   "etage": "RDC",
-   "enseignant": "Carole"
-  },
-  "MS GS bil": {
-   "batiment": "Maternelle",
-   "etage": "1er",
-   "enseignant": "Elodie"
-  },
-  "PS MS mono 2": {
-   "batiment": "Maternelle",
-   "etage": "1er",
-   "enseignant": "Christel"
-  },
-  "GS mono": {
-   "batiment": "Maternelle",
-   "etage": "1er",
-   "enseignant": "Bruno"
-  },
-  "CP Bil": {
-   "batiment": "Foch",
-   "etage": "RDC",
-   "enseignant": "Agnès"
-  },
-  "CE1 mono": {
-   "batiment": "Foch",
-   "etage": "RDC",
-   "enseignant": "Julie"
-  },
-  "CE2 mono": {
-   "batiment": "Foch",
-   "etage": "1er",
-   "enseignant": "Laurie"
-  },
-  "CE1 CE2 bil": {
-   "batiment": "Foch",
-   "etage": "1er",
-   "enseignant": "Sarah"
-  },
-  "CP mono": {
-   "batiment": "Vosges",
-   "etage": "RDC",
-   "enseignant": "Elsa"
-  },
-  "CM1 CM2 mono 1": {
-   "batiment": "Vosges",
-   "etage": "RDC",
-   "enseignant": "Charlotte"
-  },
-  "CM1 CM2 mono 2": {
-   "batiment": "Vosges",
-   "etage": "1er",
-   "enseignant": "Mira"
-  },
-  "CE1 CE2 mono": {
-   "batiment": "Vosges",
-   "etage": "1er",
-   "enseignant": "Samuel"
-  },
-  "CE2 CM1 bil": {
-   "batiment": "Filles",
-   "etage": "1er",
-   "enseignant": "Ninon"
-  },
-  "CM1 CM2 bil": {
-   "batiment": "Filles",
-   "etage": "1er",
-   "enseignant": "Pascal"
-  }
- },
- "fratries": [
-  {
-   "id": "T1-001",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 1,
-   "famille": "SCHISSELE",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Robin",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Cléa",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-002",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 2,
-   "famille": "DUBOST",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 bil (1er, Pascal) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Lise",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Alienor",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-003",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 3,
-   "famille": "EL HAMMOUTI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Manel",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Safiya",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-004",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 4,
-   "famille": "KARABULAK",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Asya",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ayla",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-005",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 5,
-   "famille": "CHAUCHET",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Thelma",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Basile",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-006",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 6,
-   "famille": "WALZ",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Mélodie",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "William",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-007",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 7,
-   "famille": "ATI ALLAH",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]  +  CM1 CM2 mono 2 (1er, Mira) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Rania",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Safaa",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Douaa",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-008",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 8,
-   "famille": "BELKTATI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]  +  CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Manel",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Kamilia",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Inaya",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-009",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 9,
-   "famille": "HOSATTE",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]  +  CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Armelle",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Gabriel",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    },
-    {
-     "prenom": "Anaelle",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-010",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 10,
-   "famille": "TCHIUTCHOUA TENTCHOU",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]  +  CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Ezechiel",
-     "niveau": "PS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Amaya",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    },
-    {
-     "prenom": "Naiyana",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-011",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 11,
-   "famille": "SCHAAL",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Loann",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Layvin",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-012",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 12,
-   "famille": "TALBI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 1",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Aylane Yani",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Nour",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "écrit « TAIBI » (= TALBI)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-013",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 13,
-   "famille": "CESKO",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)",
-   "enfants": [
-    {
-     "prenom": "Din",
-     "niveau": "MS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Adem",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-014",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 14,
-   "famille": "DIEN",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)",
-   "enfants": [
-    {
-     "prenom": "Alrick",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Justine",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-015",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 15,
-   "famille": "SCHWEY",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)",
-   "enfants": [
-    {
-     "prenom": "Léonora",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Thalia",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-016",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 16,
-   "famille": "SEKER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)",
-   "enfants": [
-    {
-     "prenom": "Adem",
-     "niveau": "MS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ayla",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-017",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 17,
-   "famille": "FEURER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Nina Louve",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ulysse",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-018",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 18,
-   "famille": "NIKLAUS",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Axel",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Elena",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-019",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 19,
-   "famille": "SNOUSSI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Dany",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ouijdane",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-020",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 20,
-   "famille": "CAKMAK",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 bil (1er, Sarah) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Defne",
-     "niveau": "MS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Beste",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-021",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 21,
-   "famille": "DIKOLI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CP Bil (RDC, Agnès) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Kassim",
-     "niveau": "MS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Aïla",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-022",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 22,
-   "famille": "ROMANG",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CP Bil (RDC, Agnès) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Valentine",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Salomé",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-023",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 23,
-   "famille": "DIALLO",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Ibrahima",
-     "niveau": "MS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "AISSATA",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-024",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 24,
-   "famille": "ZINNI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 1",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Lucas",
-     "niveau": "PS",
-     "classe": "PS MS bil 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "SASHA",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-025",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 25,
-   "famille": "KAYAR",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Yaman",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Yigit",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-026",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 26,
-   "famille": "RUSSO",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Mei",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Alix",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-027",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 27,
-   "famille": "SA MOREL",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Robin",
-     "niveau": "PS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "LUKE",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": "À VÉRIFIER : écrit « SA », rattaché à SA MOREL"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-028",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 28,
-   "famille": "JEST",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 bil (1er, Pascal) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Elke",
-     "niveau": "PS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "ENRIK",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-029",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 29,
-   "famille": "NGAMI KOUEBO",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 bil (1er, Sarah) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Iliana Pauline",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Iris",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-030",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 30,
-   "famille": "RUBIO",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CP Bil (RDC, Agnès) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Corentin",
-     "niveau": "PS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Coline",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-031",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 31,
-   "famille": "DJARER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Nour",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Mahdi",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-032",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 32,
-   "famille": "OZDEMIR",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS bil 2",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Néda",
-     "niveau": "MS",
-     "classe": "PS MS bil 2",
-     "lieu": "Maternelle RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Feyza",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-033",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 33,
-   "famille": "EL HAJJAMI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Nathan",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Aliya",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-034",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 34,
-   "famille": "TEBBI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Ayla Chikha",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Mohamed-Yazan",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-035",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 35,
-   "famille": "AUGST",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]  +  CM1 CM2 bil (1er, Pascal) [Filles]  +  CE1 CE2 bil (1er, Sarah) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Ethan",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Léna",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "EMILIE",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "③",
-     "remarque": ""
-    },
-    {
-     "prenom": "Margot",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "④",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-036",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 36,
-   "famille": "ZIMMER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]  +  CP mono (RDC, Elsa) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Lisa",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Louise",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Samuel",
-     "niveau": "CP",
-     "classe": "CP mono",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-037",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 37,
-   "famille": "RASOOLI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Aayat",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Asra",
-     "niveau": "MS",
-     "classe": "PS MS mono 1",
-     "lieu": "Maternelle RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-038",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 38,
-   "famille": "MATTERN",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Sacha",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "CHLOE",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": "À VÉRIFIER : écrit « MATHERN », rattaché à MATTERN"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-039",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 39,
-   "famille": "SATOUR",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Yanis",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Rayan",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-040",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 40,
-   "famille": "UCAR",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (2 fratries)",
-   "enfants": [
-    {
-     "prenom": "Semih fuat",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ayse Destan",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-041",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 41,
-   "famille": "VESAPHONG",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]  +  CM1 CM2 mono 2 (1er, Mira) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Lyse",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Leonie",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Lucile",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-042",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 42,
-   "famille": "KOENIGSECKER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Archie",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Eléonore",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-043",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 43,
-   "famille": "GORDETE COVINDASSAMY",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Ilyana",
-     "niveau": "MS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Aydem",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-044",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 44,
-   "famille": "GHAZI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "PS MS mono 2",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]  +  CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Haya",
-     "niveau": "PS",
-     "classe": "PS MS mono 2",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Yousaf",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    },
-    {
-     "prenom": "Fatima",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-045",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 45,
-   "famille": "KAYA",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "aucun arrêt supplémentaire   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Azad",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Azer",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-046",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 46,
-   "famille": "BUCHER",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Agathe",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Norah",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-047",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 47,
-   "famille": "ALLAM",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CE2 CM1 bil (1er, Ninon) [Filles]  +  CE1 mono (RDC, Julie) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Aksil",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "AMELIA",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Arris",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "③",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-048",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 48,
-   "famille": "VICENTE",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 bil (1er, Pascal) [Filles]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Meï-Line",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Liam",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-049",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 49,
-   "famille": "SCHEIBLING LORENTZ",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 bil (1er, Sarah) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Edouard",
-     "niveau": "MS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Margaux",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-050",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 50,
-   "famille": "THIMEL GIUGLARIS",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Manon",
-     "niveau": "GS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Gabin",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-051",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 51,
-   "famille": "TARABEUX",
-   "priorite": "avec_maternelle",
-   "classeDepart": "MS GS bil",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Margaux",
-     "niveau": "MS",
-     "classe": "MS GS bil",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Alicia",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-052",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 52,
-   "famille": "MACHI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "aucun arrêt supplémentaire   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Emile",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Gustave",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-053",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 53,
-   "famille": "SILINI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Adel",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Louna",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-054",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 54,
-   "famille": "AZEB CHIKH",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CE2 mono (1er, Laurie) [Foch]  +  CM1 CM2 mono 2 (1er, Mira) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Mohamed",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "MALAK",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Mahrez Ali",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-055",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 55,
-   "famille": "MANDRY",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Alizée",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Maélie",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-056",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 56,
-   "famille": "BILGIC",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]  +  CM1 CM2 mono 2 (1er, Mira) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Elya",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ilyas",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "MIRAN",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-057",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 57,
-   "famille": "HALIDI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CE1 CE2 mono (1er, Samuel) [Vosges]  +  CP mono (RDC, Elsa) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Ileyna",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ilyanna",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    },
-    {
-     "prenom": "Inaya",
-     "niveau": "CP",
-     "classe": "CP mono",
-     "lieu": "Vosges RDC",
-     "ordre": "③",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-058",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 58,
-   "famille": "WEISS",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Tiago",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Endji",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T1-059",
-   "tournee": 1,
-   "tourneeBatiment": "Maternelle",
-   "ordre": 59,
-   "famille": "STITI",
-   "priorite": "avec_maternelle",
-   "classeDepart": "GS mono",
-   "arretsSuivants": "puis aller chercher en : CP mono (RDC, Elsa) [Vosges]   (1 fratrie)",
-   "enfants": [
-    {
-     "prenom": "Adam",
-     "niveau": "GS",
-     "classe": "GS mono",
-     "lieu": "Maternelle 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Rokaya",
-     "niveau": "CP",
-     "classe": "CP mono",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-060",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 60,
-   "famille": "CHENNAOUI",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Eya",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Marwa",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-061",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 61,
-   "famille": "DE BAILLIENCOURT",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Tristan",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Garance",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": "À VÉRIFIER : écrit « DE BALLLIENCOURT », rattaché à DE BAILLIENCOURT"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-062",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 62,
-   "famille": "DOUIMI",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Evie",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Anna",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    },
-    {
-     "prenom": "Samuel",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "③",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-063",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 63,
-   "famille": "EL AMRI",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Kaïs",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Inès",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-064",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 64,
-   "famille": "KOUASSI HOFFMANN",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Maêla",
-     "niveau": "CE2",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Zacharie",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-065",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 65,
-   "famille": "OSTER",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "MAEL",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "THEO",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-066",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 66,
-   "famille": "PORTE",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 CM1 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Morgane",
-     "niveau": "CM1",
-     "classe": "CE2 CM1 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Candice",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-067",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 67,
-   "famille": "AHSSANE",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Ziad",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Tasnime",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-068",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 68,
-   "famille": "BARABINOT",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Alessio",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Roméo",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-069",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 69,
-   "famille": "FROMEYER",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Albane",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Eléa",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-070",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 70,
-   "famille": "GAIBLET",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "DIVYA",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Sathya",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-071",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 71,
-   "famille": "GRASS",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Juliette",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Lucie",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-072",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 72,
-   "famille": "KESSLER",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Gabriel",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Joseph",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-073",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 73,
-   "famille": "MANIGHETTI GUR",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Léon",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Lucie",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-074",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 74,
-   "famille": "OBST",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Valentina",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Raphaël",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T2-075",
-   "tournee": 2,
-   "tourneeBatiment": "Filles",
-   "ordre": 75,
-   "famille": "RUDOLF",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CM1 CM2 bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Tony",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 bil",
-     "lieu": "Filles 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Luis",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-076",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 76,
-   "famille": "AL ASHWAL",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CP Bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Sophie",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Nael",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-077",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 77,
-   "famille": "ANZA-HAFSA",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CP Bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Melissa",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Léa",
-     "niveau": "CE2",
-     "classe": "CE1 CE2 bil",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-078",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 78,
-   "famille": "HOEN",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CP Bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Charlotte",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Léonie",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-079",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 79,
-   "famille": "WALD",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CP Bil",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Solveig",
-     "niveau": "CP",
-     "classe": "CP Bil",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Ellinor",
-     "niveau": "CM1",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-080",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 80,
-   "famille": "EL YAAKOUBI",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE1 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Qassim",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Issa",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 2",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-081",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 81,
-   "famille": "HUAULMÉ",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE1 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Clémence",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Juliette",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-082",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 82,
-   "famille": "ROESCH",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE1 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Amélia",
-     "niveau": "CE1",
-     "classe": "CE1 mono",
-     "lieu": "Foch RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Nola",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-083",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 83,
-   "famille": "BARTOULOU",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Rayan",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Tasnim",
-     "niveau": "CP",
-     "classe": "CP mono",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-084",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 84,
-   "famille": "MAZAR",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Sofiane",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Mélina",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T3-085",
-   "tournee": 3,
-   "tourneeBatiment": "Foch",
-   "ordre": 85,
-   "famille": "TASKIRAN",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE2 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "HELIN",
-     "niveau": "CE2",
-     "classe": "CE2 mono",
-     "lieu": "Foch 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Azad",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": "en repassant (bâtiment du studio)"
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T4-086",
-   "tournee": 4,
-   "tourneeBatiment": "Vosges",
-   "ordre": 86,
-   "famille": "LAMBERT",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CP mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Osaï",
-     "niveau": "CP",
-     "classe": "CP mono",
-     "lieu": "Vosges RDC",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Priam",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T4-087",
-   "tournee": 4,
-   "tourneeBatiment": "Vosges",
-   "ordre": 87,
-   "famille": "ALKAA",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE1 CE2 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Anaïs",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "Yanis",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  },
-  {
-   "id": "T4-088",
-   "tournee": 4,
-   "tourneeBatiment": "Vosges",
-   "ordre": 88,
-   "famille": "YAHIA AMMAR",
-   "priorite": "sans_maternelle",
-   "classeDepart": "CE1 CE2 mono",
-   "arretsSuivants": null,
-   "enfants": [
-    {
-     "prenom": "Maelys",
-     "niveau": "CE1",
-     "classe": "CE1 CE2 mono",
-     "lieu": "Vosges 1er",
-     "ordre": "①",
-     "remarque": ""
-    },
-    {
-     "prenom": "ILYES",
-     "niveau": "CM2",
-     "classe": "CM1 CM2 mono 1",
-     "lieu": "Vosges RDC",
-     "ordre": "②",
-     "remarque": ""
-    }
-   ],
-   "statut": "a_chercher",
-   "par": null,
-   "maj": null
-  }
- ],
- "sansFratrie": [
-  {
-   "famille": "DIEN WENDLING",
-   "prenom": "CYRIAQUE",
-   "niveau": "CM1",
-   "classe": "CE2 CM1 bil",
-   "lieu": "Filles 1er",
-   "remarque": "Avait une sœur (Justine DIEN, MS) en 25/26 : absente du fichier"
-  },
-  {
-   "famille": "EL KHATTOUTI",
-   "prenom": "Ryad",
-   "niveau": "GS",
-   "classe": "GS mono",
-   "lieu": "Maternelle 1er",
-   "remarque": ""
-  },
-  {
-   "famille": "KAYA OZDEMIR",
-   "prenom": "Neslihan",
-   "niveau": "CM2",
-   "classe": "CM1 CM2 bil",
-   "lieu": "Filles 1er",
-   "remarque": ""
-  },
-  {
-   "famille": "NGUYEN",
-   "prenom": "Phoebe",
-   "niveau": "CE1",
-   "classe": "CE1 CE2 bil",
-   "lieu": "Foch 1er",
-   "remarque": ""
-  },
-  {
-   "famille": "NIESS",
-   "prenom": "Loan",
-   "niveau": "GS",
-   "classe": "GS mono",
-   "lieu": "Maternelle 1er",
-   "remarque": ""
-  },
-  {
-   "famille": "SCIAUX",
-   "prenom": "Aaron",
-   "niveau": "PS",
-   "classe": "PS MS mono 2",
-   "lieu": "Maternelle 1er",
-   "remarque": ""
-  },
-  {
-   "famille": "SEBILO",
-   "prenom": "THELMA",
-   "niveau": "CM1",
-   "classe": "CE2 CM1 bil",
-   "lieu": "Filles 1er",
-   "remarque": ""
-  }
- ]
+  "meta": {
+    "annee": "2026/27",
+    "studio": "Vosges",
+    "chemin": "Vosges > Foch > Maternelle > Filles"
+  },
+  "classes": {
+    "PS MS bil 1": {
+      "batiment": "Maternelle",
+      "etage": "RDC",
+      "enseignant": "Patrick / Clémence"
+    },
+    "PS MS bil 2": {
+      "batiment": "Maternelle",
+      "etage": "RDC",
+      "enseignant": "Clémence / Patrick"
+    },
+    "PS MS mono 1": {
+      "batiment": "Maternelle",
+      "etage": "RDC",
+      "enseignant": "Carole"
+    },
+    "MS GS bil": {
+      "batiment": "Maternelle",
+      "etage": "1er",
+      "enseignant": "Elodie"
+    },
+    "PS MS mono 2": {
+      "batiment": "Maternelle",
+      "etage": "1er",
+      "enseignant": "Christel"
+    },
+    "GS mono": {
+      "batiment": "Maternelle",
+      "etage": "1er",
+      "enseignant": "Bruno"
+    },
+    "CP Bil": {
+      "batiment": "Foch",
+      "etage": "RDC",
+      "enseignant": "Agnès"
+    },
+    "CE1 mono": {
+      "batiment": "Foch",
+      "etage": "RDC",
+      "enseignant": "Julie"
+    },
+    "CE2 mono": {
+      "batiment": "Foch",
+      "etage": "1er",
+      "enseignant": "Laurie"
+    },
+    "CE1 CE2 bil": {
+      "batiment": "Foch",
+      "etage": "1er",
+      "enseignant": "Sarah"
+    },
+    "CP mono": {
+      "batiment": "Vosges",
+      "etage": "RDC",
+      "enseignant": "Elsa"
+    },
+    "CM1 CM2 mono 1": {
+      "batiment": "Vosges",
+      "etage": "RDC",
+      "enseignant": "Charlotte"
+    },
+    "CM1 CM2 mono 2": {
+      "batiment": "Vosges",
+      "etage": "1er",
+      "enseignant": "Mira"
+    },
+    "CE1 CE2 mono": {
+      "batiment": "Vosges",
+      "etage": "1er",
+      "enseignant": "Samuel"
+    },
+    "CE2 CM1 bil": {
+      "batiment": "Filles",
+      "etage": "1er",
+      "enseignant": "Ninon"
+    },
+    "CM1 CM2 bil": {
+      "batiment": "Filles",
+      "etage": "1er",
+      "enseignant": "Pascal"
+    }
+  },
+  "fratries": [
+    {
+      "id": "T1-002",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 1,
+      "famille": "DUBOST",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Alienor",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Lise",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-028",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 2,
+      "famille": "JEST",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "ENRIK",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Elke",
+          "niveau": "PS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-035",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 3,
+      "famille": "AUGST",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": "puis aller chercher en : CE1 CE2 bil (1er, Sarah) [Foch]  +  PS MS mono 2 (1er, Christel) [Maternelle]  +  GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "EMILIE",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Margot",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        },
+        {
+          "prenom": "Ethan",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        },
+        {
+          "prenom": "Léna",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "④",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-048",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 4,
+      "famille": "VICENTE",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Liam",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Meï-Line",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-003",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 5,
+      "famille": "EL HAMMOUTI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Safiya",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Manel",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-004",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 6,
+      "famille": "KARABULAK",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Ayla",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Asya",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-039",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 7,
+      "famille": "SATOUR",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Rayan",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Yanis",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-040",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 8,
+      "famille": "UCAR",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Ayse Destan",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Semih fuat",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-041",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 9,
+      "famille": "VESAPHONG",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]  +  PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Leonie",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Lucile",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Lyse",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-050",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 10,
+      "famille": "THIMEL GIUGLARIS",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Gabin",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Manon",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-053",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 11,
+      "famille": "SILINI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Louna",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Adel",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-054",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 12,
+      "famille": "AZEB CHIKH",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]  +  GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "MALAK",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Mahrez Ali",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Mohamed",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-005",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 13,
+      "famille": "CHAUCHET",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Basile",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Thelma",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-006",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 14,
+      "famille": "WALZ",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "William",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Mélodie",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-007",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 15,
+      "famille": "ATI ALLAH",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]  +  PS MS mono 1 (RDC, Carole) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Safaa",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Douaa",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Rania",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-008",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 16,
+      "famille": "BELKTATI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]  +  PS MS mono 1 (RDC, Carole) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Kamilia",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Inaya",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Manel",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-042",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 17,
+      "famille": "KOENIGSECKER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Eléonore",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Archie",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-055",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 18,
+      "famille": "MANDRY",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Maélie",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Alizée",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-056",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 19,
+      "famille": "BILGIC",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 2 (1er, Mira) [Vosges]  +  GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Ilyas",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "MIRAN",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Elya",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-009",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 20,
+      "famille": "HOSATTE",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]  +  PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Gabriel",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Anaelle",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Armelle",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-010",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 21,
+      "famille": "TCHIUTCHOUA TENTCHOU",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]  +  PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Amaya",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Naiyana",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Ezechiel",
+          "niveau": "PS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-031",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 22,
+      "famille": "DJARER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Mahdi",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Nour",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-032",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 23,
+      "famille": "OZDEMIR",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Feyza",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Néda",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-043",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 24,
+      "famille": "GORDETE COVINDASSAMY",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Aydem",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Ilyana",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-057",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 25,
+      "famille": "HALIDI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": "puis aller chercher en : CP mono (RDC, Elsa) [Vosges]  +  GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Ilyanna",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Inaya",
+          "niveau": "CP",
+          "classe": "CP mono",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Ileyna",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-011",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 26,
+      "famille": "SCHAAL",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Layvin",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Loann",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-012",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 27,
+      "famille": "TALBI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Nour",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "écrit « TAIBI » (= TALBI)"
+        },
+        {
+          "prenom": "Aylane Yani",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-023",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 28,
+      "famille": "DIALLO",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "AISSATA",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Ibrahima",
+          "niveau": "MS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-024",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 29,
+      "famille": "ZINNI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "SASHA",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Lucas",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-044",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 30,
+      "famille": "GHAZI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : CM1 CM2 mono 1 (RDC, Charlotte) [Vosges]  +  PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Yousaf",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Fatima",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Haya",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-051",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 31,
+      "famille": "TARABEUX",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 2",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Alicia",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Margaux",
+          "niveau": "MS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-019",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 32,
+      "famille": "SNOUSSI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Ouijdane",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Dany",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-026",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 33,
+      "famille": "RUSSO",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Alix",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Mei",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-027",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 34,
+      "famille": "SA MOREL",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "LUKE",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": "À VÉRIFIER : écrit « SA », rattaché à SA MOREL"
+        },
+        {
+          "prenom": "Robin",
+          "niveau": "PS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-038",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 35,
+      "famille": "MATTERN",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "CHLOE",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": "À VÉRIFIER : écrit « MATHERN », rattaché à MATTERN"
+        },
+        {
+          "prenom": "Sacha",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-046",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 36,
+      "famille": "BUCHER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Norah",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Agathe",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-047",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 37,
+      "famille": "ALLAM",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": "puis aller chercher en : CE1 mono (RDC, Julie) [Foch]  +  MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "AMELIA",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Arris",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        },
+        {
+          "prenom": "Aksil",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-020",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 38,
+      "famille": "CAKMAK",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Beste",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Defne",
+          "niveau": "MS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-029",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 39,
+      "famille": "NGAMI KOUEBO",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Iris",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Iliana Pauline",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-049",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 40,
+      "famille": "SCHEIBLING LORENTZ",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CE1 CE2 bil",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Margaux",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Edouard",
+          "niveau": "MS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-021",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 41,
+      "famille": "DIKOLI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Aïla",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Kassim",
+          "niveau": "MS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-022",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 42,
+      "famille": "ROMANG",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 1 (RDC, Patrick / Clémence) [Maternelle]   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Salomé",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Valentine",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-030",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 43,
+      "famille": "RUBIO",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Coline",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Corentin",
+          "niveau": "PS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-036",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 44,
+      "famille": "ZIMMER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CP mono",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]  +  GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Samuel",
+          "niveau": "CP",
+          "classe": "CP mono",
+          "lieu": "Vosges RDC",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Lisa",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        },
+        {
+          "prenom": "Louise",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-059",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 45,
+      "famille": "STITI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CP mono",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Rokaya",
+          "niveau": "CP",
+          "classe": "CP mono",
+          "lieu": "Vosges RDC",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Adam",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-058",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 46,
+      "famille": "WEISS",
+      "priorite": "avec_maternelle",
+      "classeDepart": "CM1 CM2 mono 1",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Endji",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "①",
+          "remarque": "en repassant (bâtiment du studio)"
+        },
+        {
+          "prenom": "Tiago",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-001",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 47,
+      "famille": "SCHISSELE",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS mono 1",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 2 (1er, Christel) [Maternelle]   (1 fratrie)   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Robin",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Cléa",
+          "niveau": "MS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-013",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 48,
+      "famille": "CESKO",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)   (4 fratries)",
+      "enfants": [
+        {
+          "prenom": "Din",
+          "niveau": "MS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Adem",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-014",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 49,
+      "famille": "DIEN",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)   (4 fratries)",
+      "enfants": [
+        {
+          "prenom": "Alrick",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Justine",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-015",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 50,
+      "famille": "SCHWEY",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)   (4 fratries)",
+      "enfants": [
+        {
+          "prenom": "Léonora",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Thalia",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-016",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 51,
+      "famille": "SEKER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (4 fratries)   (4 fratries)",
+      "enfants": [
+        {
+          "prenom": "Adem",
+          "niveau": "MS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Ayla",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-017",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 52,
+      "famille": "FEURER",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Nina Louve",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Ulysse",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-018",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 53,
+      "famille": "NIKLAUS",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 1",
+      "arretsSuivants": "puis aller chercher en : PS MS bil 2 (RDC, Clémence / Patrick) [Maternelle]   (2 fratries)   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Axel",
+          "niveau": "PS",
+          "classe": "PS MS bil 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Elena",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-025",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 54,
+      "famille": "KAYAR",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS bil 2",
+      "arretsSuivants": "puis aller chercher en : MS GS bil (1er, Elodie) [Maternelle]   (1 fratrie)   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Yaman",
+          "niveau": "MS",
+          "classe": "PS MS bil 2",
+          "lieu": "Maternelle RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Yigit",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-033",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 55,
+      "famille": "EL HAJJAMI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS mono 2",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (2 fratries)   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Nathan",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Aliya",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-034",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 56,
+      "famille": "TEBBI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS mono 2",
+      "arretsSuivants": "puis aller chercher en : GS mono (1er, Bruno) [Maternelle]   (2 fratries)   (2 fratries)",
+      "enfants": [
+        {
+          "prenom": "Ayla Chikha",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Mohamed-Yazan",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-037",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 57,
+      "famille": "RASOOLI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "PS MS mono 2",
+      "arretsSuivants": "puis aller chercher en : PS MS mono 1 (RDC, Carole) [Maternelle]   (1 fratrie)   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Aayat",
+          "niveau": "PS",
+          "classe": "PS MS mono 2",
+          "lieu": "Maternelle 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Asra",
+          "niveau": "MS",
+          "classe": "PS MS mono 1",
+          "lieu": "Maternelle RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-045",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 58,
+      "famille": "KAYA",
+      "priorite": "avec_maternelle",
+      "classeDepart": "MS GS bil",
+      "arretsSuivants": "aucun arrêt supplémentaire   (1 fratrie)   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Azad",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Azer",
+          "niveau": "GS",
+          "classe": "MS GS bil",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T1-052",
+      "tournee": 1,
+      "tourneeBatiment": "Maternelle",
+      "ordre": 59,
+      "famille": "MACHI",
+      "priorite": "avec_maternelle",
+      "classeDepart": "GS mono",
+      "arretsSuivants": "aucun arrêt supplémentaire   (1 fratrie)   (1 fratrie)",
+      "enfants": [
+        {
+          "prenom": "Emile",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Gustave",
+          "niveau": "GS",
+          "classe": "GS mono",
+          "lieu": "Maternelle 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-060",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 60,
+      "famille": "CHENNAOUI",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Eya",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Marwa",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-061",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 61,
+      "famille": "DE BAILLIENCOURT",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Tristan",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Garance",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": "À VÉRIFIER : écrit « DE BALLLIENCOURT », rattaché à DE BAILLIENCOURT"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-062",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 62,
+      "famille": "DOUIMI",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Evie",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Anna",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        },
+        {
+          "prenom": "Samuel",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "③",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-063",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 63,
+      "famille": "EL AMRI",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Kaïs",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Inès",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-064",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 64,
+      "famille": "KOUASSI HOFFMANN",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Maêla",
+          "niveau": "CE2",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Zacharie",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-065",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 65,
+      "famille": "OSTER",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "MAEL",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "THEO",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-066",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 66,
+      "famille": "PORTE",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 CM1 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Morgane",
+          "niveau": "CM1",
+          "classe": "CE2 CM1 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Candice",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-067",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 67,
+      "famille": "AHSSANE",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Ziad",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Tasnime",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-068",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 68,
+      "famille": "BARABINOT",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Alessio",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Roméo",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-069",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 69,
+      "famille": "FROMEYER",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Albane",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Eléa",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-070",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 70,
+      "famille": "GAIBLET",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "DIVYA",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Sathya",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-071",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 71,
+      "famille": "GRASS",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Juliette",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Lucie",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-072",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 72,
+      "famille": "KESSLER",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Gabriel",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Joseph",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-073",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 73,
+      "famille": "MANIGHETTI GUR",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Léon",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Lucie",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-074",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 74,
+      "famille": "OBST",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Valentina",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Raphaël",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T2-075",
+      "tournee": 2,
+      "tourneeBatiment": "Filles",
+      "ordre": 75,
+      "famille": "RUDOLF",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CM1 CM2 bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Tony",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 bil",
+          "lieu": "Filles 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Luis",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-076",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 76,
+      "famille": "AL ASHWAL",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Sophie",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Nael",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-077",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 77,
+      "famille": "ANZA-HAFSA",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Melissa",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Léa",
+          "niveau": "CE2",
+          "classe": "CE1 CE2 bil",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-078",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 78,
+      "famille": "HOEN",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Charlotte",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Léonie",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-079",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 79,
+      "famille": "WALD",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CP Bil",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Solveig",
+          "niveau": "CP",
+          "classe": "CP Bil",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Ellinor",
+          "niveau": "CM1",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-080",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 80,
+      "famille": "EL YAAKOUBI",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Qassim",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Issa",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 2",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-081",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 81,
+      "famille": "HUAULMÉ",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Clémence",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Juliette",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-082",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 82,
+      "famille": "ROESCH",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE1 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Amélia",
+          "niveau": "CE1",
+          "classe": "CE1 mono",
+          "lieu": "Foch RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Nola",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-083",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 83,
+      "famille": "BARTOULOU",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Rayan",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Tasnim",
+          "niveau": "CP",
+          "classe": "CP mono",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-084",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 84,
+      "famille": "MAZAR",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Sofiane",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Mélina",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T3-085",
+      "tournee": 3,
+      "tourneeBatiment": "Foch",
+      "ordre": 85,
+      "famille": "TASKIRAN",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE2 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "HELIN",
+          "niveau": "CE2",
+          "classe": "CE2 mono",
+          "lieu": "Foch 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Azad",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": "en repassant (bâtiment du studio)"
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T4-086",
+      "tournee": 4,
+      "tourneeBatiment": "Vosges",
+      "ordre": 86,
+      "famille": "LAMBERT",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CP mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Osaï",
+          "niveau": "CP",
+          "classe": "CP mono",
+          "lieu": "Vosges RDC",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Priam",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T4-087",
+      "tournee": 4,
+      "tourneeBatiment": "Vosges",
+      "ordre": 87,
+      "famille": "ALKAA",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Anaïs",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "Yanis",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    },
+    {
+      "id": "T4-088",
+      "tournee": 4,
+      "tourneeBatiment": "Vosges",
+      "ordre": 88,
+      "famille": "YAHIA AMMAR",
+      "priorite": "sans_maternelle",
+      "classeDepart": "CE1 CE2 mono",
+      "arretsSuivants": null,
+      "enfants": [
+        {
+          "prenom": "Maelys",
+          "niveau": "CE1",
+          "classe": "CE1 CE2 mono",
+          "lieu": "Vosges 1er",
+          "ordre": "①",
+          "remarque": ""
+        },
+        {
+          "prenom": "ILYES",
+          "niveau": "CM2",
+          "classe": "CM1 CM2 mono 1",
+          "lieu": "Vosges RDC",
+          "ordre": "②",
+          "remarque": ""
+        }
+      ],
+      "statut": "a_chercher",
+      "par": null,
+      "maj": null
+    }
+  ],
+  "sansFratrie": [
+    {
+      "famille": "DIEN WENDLING",
+      "prenom": "CYRIAQUE",
+      "niveau": "CM1",
+      "classe": "CE2 CM1 bil",
+      "lieu": "Filles 1er",
+      "remarque": "Avait une sœur (Justine DIEN, MS) en 25/26 : absente du fichier"
+    },
+    {
+      "famille": "EL KHATTOUTI",
+      "prenom": "Ryad",
+      "niveau": "GS",
+      "classe": "GS mono",
+      "lieu": "Maternelle 1er",
+      "remarque": ""
+    },
+    {
+      "famille": "KAYA OZDEMIR",
+      "prenom": "Neslihan",
+      "niveau": "CM2",
+      "classe": "CM1 CM2 bil",
+      "lieu": "Filles 1er",
+      "remarque": ""
+    },
+    {
+      "famille": "NGUYEN",
+      "prenom": "Phoebe",
+      "niveau": "CE1",
+      "classe": "CE1 CE2 bil",
+      "lieu": "Foch 1er",
+      "remarque": ""
+    },
+    {
+      "famille": "NIESS",
+      "prenom": "Loan",
+      "niveau": "GS",
+      "classe": "GS mono",
+      "lieu": "Maternelle 1er",
+      "remarque": ""
+    },
+    {
+      "famille": "SCIAUX",
+      "prenom": "Aaron",
+      "niveau": "PS",
+      "classe": "PS MS mono 2",
+      "lieu": "Maternelle 1er",
+      "remarque": ""
+    },
+    {
+      "famille": "SEBILO",
+      "prenom": "THELMA",
+      "niveau": "CM1",
+      "classe": "CE2 CM1 bil",
+      "lieu": "Filles 1er",
+      "remarque": ""
+    }
+  ]
 }
